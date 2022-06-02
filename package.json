@@ -1,0 +1,19 @@
+{
+  "name": "lovely-db",
+  "version": "1.0.0",
+  "description": "simple and easy json database for node.js",
+  "main": "lovely-db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkekurnaz/lovelyDb.git"
+  },
+  "author": "Berke Kurnaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berkekurnaz/lovelyDb/issues"
+  },
+  "homepage": "https://github.com/berkekurnaz/lovelyDb#readme"
+}

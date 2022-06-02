@@ -4,7 +4,7 @@ LovelyDb is simple and easy json database 🚀 You can save your data quickly by
 ## Installation
 
 ```bash 
-  npm install lovelyDb
+  npm install lovely-db
 ```
 
 ## Usage

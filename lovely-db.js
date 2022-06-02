@@ -12,11 +12,11 @@ exports.get = async (collectionName, query = []) => {
     } catch (e) {
         if (e.errno === -4058) {
             try{
-                await fs.mkdir("./lovelyDbs");
+                await fs.mkdir("./lovelyDb");
             }catch{
                 
             }
-            let data = await fs.writeFile("./lovelyDbs/" + collectionName + ".json", "[]");
+            let data = await fs.writeFile("./lovelyDb/" + collectionName + ".json", "[]");
         }
         return [];
     }

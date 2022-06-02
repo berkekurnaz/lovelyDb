@@ -1,6 +1,6 @@
 {
   "name": "lovely-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple and easy json database for node.js",
   "main": "lovely-db.js",
   "scripts": {

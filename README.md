@@ -1,5 +1,11 @@
 # LovelyDb
-LovelyDb is simple and easy json database. You can save your data quickly by writing less code. We support 4 operations right now.
+LovelyDb is simple and easy json database 🚀 You can save your data quickly by writing less code. We support 4 operations right now.
+
+## Installation
+
+```bash 
+  npm install lovelyDb
+```
 
 ## Usage
 
@@ -8,16 +14,13 @@ LovelyDb is simple and easy json database. You can save your data quickly by wri
 // Add LovelyDb To Your Project
 let lovelyDb = require("lovely-db");
 
-
 // Get All Data
 let data = await lovelyDb.get("users");
 res.json(data);
 
-
 // Get Data With Query
 let data = await lovelyDb.get("users", x => x.id == req.query.id);
 res.json(data);
-
 
 // Add New Record
 await lovelyDb.add("users", {
@@ -25,7 +28,6 @@ await lovelyDb.add("users", {
     description: req.body.description,
     age: 18
 });
-
 
 // Update a Record
 await lovelyDb.update("users",
@@ -37,10 +39,8 @@ await lovelyDb.update("users",
     }
 );
 
-
 // Delete a Record
 await lovelyDb.delete("users", x => x.id == req.body.id);
-
 
 ```
 
